@@ -1,0 +1,37 @@
+{
+  "name": "tutortube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oghusky/tutortube.git"
+  },
+  "author": "Philip Simmons and Perry Craft",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oghusky/tutortube/issues"
+  },
+  "homepage": "https://github.com/oghusky/tutortube#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "cheerio": "^1.0.0-rc.3",
+    "connect-mongodb-session": "^2.3.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "mongoose": "^5.9.1",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
